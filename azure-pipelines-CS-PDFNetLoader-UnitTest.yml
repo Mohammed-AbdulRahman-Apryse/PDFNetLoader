@@ -38,9 +38,21 @@ steps:
     command: 'build'
     projects: 'C:\Help\Apryse\GitHub\PDFNetLoader'
 
-- task: DotNetCoreCLI@2
+# - task: DotNetCoreCLI@2
+#  displayName: 'Unit Test'
+#  inputs:
+#    command: 'test'
+#    projects: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
+#    testRunTitle: 'Unit Test'
+
+- task: VSTest@3
   displayName: 'Unit Test'
   inputs:
-    command: 'test'
-    projects: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
-    testRunTitle: 'Unit Test'
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\bin\**\*test.dll
+      **\bin\**\*tests.dll
+    # searchFolder: '$(System.DefaultWorkingDirectory)'
+    searchFolder: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
+    platform: 'Any CPU'
+    configuration: 'Release'
