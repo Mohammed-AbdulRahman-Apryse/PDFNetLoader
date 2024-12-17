@@ -34,7 +34,6 @@ steps:
     testAssemblyVer2: |
       **\bin\**\*test.dll
       **\bin\**\*tests.dll
-    searchFolder: '$(System.DefaultWorkingDirectory)'
-    # searchFolder: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
+    searchFolder: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
     platform: 'Any CPU'
     configuration: 'Release'
