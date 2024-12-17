@@ -22,28 +22,10 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-# - task: VSBuild@1
-#  inputs:
-#    solution: '$(solution)'
-#    platform: '$(buildPlatform)'
-#    configuration: '$(buildConfiguration)'
-
-#- task: VSTest@2
-#  inputs:
-#    platform: '$(buildPlatform)'
-#    configuration: '$(buildConfiguration)'
-
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
     projects: 'C:\Help\Apryse\GitHub\PDFNetLoader'
-
-# - task: DotNetCoreCLI@2
-#  displayName: 'Unit Test'
-#  inputs:
-#    command: 'test'
-#    projects: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
-#    testRunTitle: 'Unit Test'
 
 - task: VSTest@3
   displayName: 'Unit Test'
@@ -52,7 +34,7 @@ steps:
     testAssemblyVer2: |
       **\bin\**\*test.dll
       **\bin\**\*tests.dll
-    # searchFolder: '$(System.DefaultWorkingDirectory)'
-    searchFolder: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    # searchFolder: 'C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest'
     platform: 'Any CPU'
     configuration: 'Release'
