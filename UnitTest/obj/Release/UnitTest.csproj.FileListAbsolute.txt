@@ -1,0 +1,17 @@
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\UnitTest.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\UnitTest.pdb
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\PDFNetLoader.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\bin\Release\PDFNetLoader.pdb
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\obj\Release\UnitTest.csproj.AssemblyReference.cache
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\obj\Release\UnitTest.csproj.CoreCompileInputs.cache
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\obj\Release\UnitTest.csproj.Up2Date
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\obj\Release\UnitTest.dll
+C:\Help\Apryse\GitHub\PDFNetLoader\UnitTest\obj\Release\UnitTest.pdb
